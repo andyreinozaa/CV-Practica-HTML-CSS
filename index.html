@@ -6,8 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/styles.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;0,1000;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900;1,1000&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;0,1000;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900;1,1000&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="./images/Favicon_AndresReinoza.png" type="image/x-icon">
     <title>CV Andres Reinoza</title>
 </head>
 <body>
@@ -22,14 +23,14 @@
     <main>
         <section class="Skills-Contact-section">
             <section>
-                <h3>Soft Skills</h3>
+                <h3><span id="SoftSkills-Icon"></span>Soft Skills</h3>
                 <ul>
                     <li>Project management.</li>
                     <li>Emotional intelligence.</li>
                     <li>Effective communication.</li>
                     <li>Oriented to results.</li>
                 </ul>
-                <h3>Hard Skills</h3>
+                <h3><span id="HardSkills-Icon"></span>Hard Skills</h3>
                 <ul>
                     <li>HTML Y CSS</li>
                     <li>Python</li>
@@ -40,7 +41,7 @@
                     <li>Agile Methodologies</li>
                     <li>Object Oriented programming</li>
                 </ul>
-                <h3>Languages</h3>
+                <h3><span id="Languages-Icon"></span>Languages</h3>
                 <ul>
                     <li>Portuguese B1</li>
                     <li>English C1</li>
@@ -48,7 +49,7 @@
                 </ul>
             </section>
             <section>
-                <h3>Achievements</h3>
+                <h3><span id="Achievements-Icon"></span>Achievements</h3>
                 <ul>
                     <li>Winner of the Q/A Team Hackaton at Platzi 2022</li>
                     <li>Finalist in the entrepreneurship competition “Vos Lo Hacés” 2021 GCBA</li>
@@ -56,9 +57,9 @@
                 </ul>
             </section>
             <section>
-                <h3>Contact Information</h3>
-                <ul>
-                    <li>Buenos Aires, Argentina</li>
+                <h3><span id="Personal-Information--Icon"></span>Personal Information</h3>
+                <ul id="Personal-Information--List">
+                    <li><a href="https://github.com/andyreinozaa/">Github</a></li>
                     <li><a href="https://www.linkedin.com/in/andyreinozaa/">LinkedIn</a></li>
                     <li><a href="wa.me/5491132839558">WhatsApp</a></li>
                     <li><a href="mailto:andresreinoza1@gmail.com">andresreinoza1@gmail.com</a></li>
@@ -67,16 +68,16 @@
         </section>
         <section class="Experience-Section">
             <div>
-                <h3>About Me:</h3>
+                <h3> <span id="About-ME-Icon"></span>About Me:</h3>
                 <p>I am a Digital Business student, and I am passionate about programming, especially Python. 
                     I have been working and leading diverse teams for more than two years in Startups and NGOs, speaking English and collaborating with stakeholders worldwide. I am curious by nature and like to learn how to solve daily challenges as a developer and make better business decisions with data analysis.
                     Currently, I'm actively looking for an opportunity in IT to contribute my creativity, passion, and experience to create and grow digital products or services.</p>
             </div>
-            <div class="job-details">
-                <h3>Laboral Experience:</h3>
+            <h3><span id="Laboral-Icon"></span>Laboral Experience:</h3>
+            <div class="experience-details">
                 <div>
                     <h4>Digital Marketing Freelance || Duo Brand Media </h4>
-                    <p class="job-duration">April 2023 - Present</p>
+                    <p class="experience-duration">April 2023 - Present</p>
                 </div>
                 <ul>
                     <li>Creation of valuable content in short videos for TikTok, Instagram, and YouTube.</li>
@@ -86,10 +87,10 @@
                 </ul>
             </div>
 
-            <div class="job-details">
+            <div class="experience-details">
                 <div>
                     <h4>Quality Assurance Associate || Platzi</h4>
-                    <p class="job-duration">April 2022 - April 2023</p>
+                    <p class="experience-duration">April 2022 - April 2023</p>
                 </div>
                 <ul>
                     <li>Create strategies and reports to improve the quality of courses.</li>
@@ -99,15 +100,49 @@
                 </ul>
             </div>
             
-            <div class="job-details">
+            <div class="experience-details">
                 <div>
                     <h4>Coderhouse</h4>
-                    <p class="job-duration">October 2021 - April 2022    </p>
+                    <p class="experience-duration">October 2021 - April 2022    </p>
                 </div>
                 <ul>
                     <li>Advised students on the final project to create strategies for launching a digital product and a content marketing plan.</li>
                     <li>Taught about creating an MVP, developing content campaigns for Facebook, Instagram, and TikTok.</li>
                     <li>Used Google Suite, Slack, Trello, and Facebook Ads.</li>
+                </ul>
+            </div>
+            <h3><span id="Educational-Icon"></span>Educational Experience:</h3>
+            <div class="experience-details">
+                <div>
+                    <h4>Bachelor's Degree in Digital Business || UCEMA</h4>
+                    <p class="expereince-duration">August 2019 - Present</p>
+                </div>
+                <ul>
+                    <li>Creation of MVPs and prototypes of solutions for E-commerce, Payments and Dermocosmetics.</li>
+                    <li>Project management with PMI methodology with OpenProject software.</li>
+                    <li>ETL and Data analysis with Excel, Power BI and PowerQuery.</li>
+                </ul>
+            </div>
+            <div class="experience-details">
+                <div>
+                    <h4>Computer Science Basics with Python || UCEMA</h4>
+                    <p class="expereince-duration">August 2022 - December 2022</p>
+                </div>
+                <ul>
+                    <li>Use the Flask framework, HTML, and CSS to develop responsive websites.</li>
+                    <li>Utilize Pandas, Numpy, Matplot, and Sklearn to perform data cleaning, analysis, and visualization.</li>
+                    <li>Create and instantiate objects to facilitate HTTP requests using the request library.</li>
+                </ul>
+            </div>
+            <div class="experience-details">
+                <div>
+                    <h4>Full Stack developer || TOTI Diversidade</h4>
+                    <p class="expereince-duration">April 2022 - August 2022</p>
+                </div>
+                <ul>
+                    <li>Develop responsive websites with React, HTML, and CSS for the frontend, and Node, SQLite, and Express for the backend.</li>
+                    <li>Collaborate in agile teams using Trello as a tool.</li>
+                    <li>Utilize Github and Git for version control in my projects.</li>
                 </ul>
             </div>
                 

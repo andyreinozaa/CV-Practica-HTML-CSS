@@ -60,6 +60,7 @@ h3{
     font-size: 2.4rem;
     color: var(--dark-blue);
     margin: 1rem 1rem 1rem 0;
+    padding-left: 3rem;
 }
 
 .Experience-Section{
@@ -77,11 +78,11 @@ p{
     line-height: normal;
 }
 
-.job-details {
+.experience-details {
     margin: 1rem 1rem 1rem 0;
 }
 
-.job-duration {
+.experience-duration {
     color: var(--dark-blue);
     font-weight: 300;
 }
@@ -95,4 +96,76 @@ ul li::before {
     color: var(--dark-blue);
     margin-right: 8px;
 
+}
+
+#About-ME-Icon {
+    position: absolute;
+    margin-left: -3rem ;
+    width: 2.4rem;
+    height: 2.4rem;
+    background-image: url('/images/lightning-charge-fill.png');
+}
+
+#Laboral-Icon{
+    position: absolute;
+    margin-left: -3rem ;
+    margin-top: 0.3rem;
+    width: 2.4rem;
+    height: 2.4rem;
+    background-image: url('/images/briefcase-fill.png');
+}
+
+#Educational-Icon{
+    position: absolute;
+    margin-left: -3rem ;
+    margin-top: 0.3rem;
+    width: 2.4rem;
+    height: 2.4rem;
+    background-image: url('/images/books-stack-of-three.png');    
+}
+
+#SoftSkills-Icon{
+    position: absolute;
+    margin-left: -3rem ;
+    margin-top: 0.3rem;
+    width: 2.4rem;
+    height: 2.4rem;
+    background-image: url('/images/lightbulb-fill.png');    
+
+}
+
+#HardSkills-Icon{
+    position: absolute;
+    margin-left: -3rem ;
+    margin-top: 0.3rem;
+    width: 2.4rem;
+    height: 2.4rem;
+    background-image: url('/images/gear-fill.png'); 
+}
+
+#Languages-Icon{
+    position: absolute;
+    margin-left: -3rem ;
+    margin-top: 0.3rem;
+    width: 2.4rem;
+    height: 2.4rem;
+    background-image: url('/images/globe2.png');
+}
+
+#Achievements-Icon{
+    position: absolute;
+    margin-left: -3rem ;
+    margin-top: 0.3rem;
+    width: 2.4rem;
+    height: 2.4rem;
+    background-image: url('/images/trophy-fill.png');
+}
+
+#Personal-Information--Icon{
+    position: absolute;
+    margin-left: -3rem ;
+    margin-top: 0.3rem;
+    width: 2.4rem;
+    height: 2.4rem;
+    background-image: url('/images/person-circle.png');
 }
